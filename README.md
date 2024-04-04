@@ -1,2 +1,3 @@
 # site-do-Helder
-Open the index.html file in the html folder to open the website
+Open the "inicio.html" file in the html folder to open the website
+The website is in Portuguese 
