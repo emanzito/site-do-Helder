@@ -1,11 +1,10 @@
 # site-do-Helder
 Open the "inicio.html" file in the html folder to open.
 The website is in Portuguese 
-## Licença
+## License
 
-Este projeto é licenciado sob a IT License.
+This project is licensed under the IT License.
 
-### Modificações na Licença
+### Modifications to the License
 
-Esta licença é uma versão modificada da Licença MIT. As permissões para "republicação e venda" foram removidas para atender aos requisitos específicos deste projeto.
-
+This license is a modified version of the MIT License. The permissions for "republication and sale" have been removed to meet the specific requirements of this project.
