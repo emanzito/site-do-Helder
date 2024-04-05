@@ -3,7 +3,7 @@ Open the "inicio.html" file in the html folder to open.
 The website is in Portuguese 
 ## License
 
-This project is licensed under the IT License.
+This project is licensed under the MIT License.
 
 ### Modifications to the License
 
