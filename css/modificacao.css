@@ -1,74 +1,75 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    outline: none;
-    list-style: none;
-    text-decoration: none;
-    color: inherit;
-    font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  list-style: none;
+  text-decoration: none;
+  color: inherit;
+  font-family: "Roboto", sans-serif;
 }
 
 body {
-    background-color: black;
+  background-color: black;
 }
 
 .texto {
-    color: white;
-    text-align: center;
-    font-size: 24px;
-    padding-top: 40px;
+  color: white;
+  text-align: center;
+  font-size: 24px;
+  padding-top: 40px;
 }
 
 .box {
-    background-color: grey;
-    margin: 60px auto; /* Centraliza a caixa horizontalmente */
-    border-radius: 7px;
-    padding-bottom: 35px;
-    max-width: 380px; /* Define a largura máxima */
+  background-color: grey;
+  margin: 60px auto; /* Centraliza a caixa horizontalmente */
+  border-radius: 7px;
+  padding-bottom: 35px;
+  max-width: 380px; /* Define a largura máxima */
 }
 
 .botao {
-    background-color: white;
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 7px;
-    margin-left: 27px;
-    margin-right: 27px;
-    border-radius: 7px;
-    user-select: none;
-    cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+  background-color: white;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 7px;
+  margin-left: 27px;
+  margin-right: 27px;
+  border-radius: 7px;
+  user-select: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease,
+    box-shadow 0.3s ease;
 }
 
 .botao:hover {
-    background-color: rgb(124, 116, 117);
-    transform: scale(1.1);
-    box-shadow: 0px 0px 10px;
+  background-color: rgb(124, 116, 117);
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px;
 }
 
 .imagem {
-    text-align: center; /* Centraliza a imagem */
-    padding: 20px 0; /* Adiciona padding superior e inferior */
+  text-align: center; /* Centraliza a imagem */
+  padding: 20px 0; /* Adiciona padding superior e inferior */
 }
 
 /* Media queries para tornar o layout responsivo */
 
 @media screen and (max-width: 768px) {
-    .box {
-        margin: 30px auto; /* Reduz a margem nas telas menores */
-        padding-bottom: 20px; /* Reduz o padding inferior */
-    }
+  .box {
+    margin: 30px auto; /* Reduz a margem nas telas menores */
+    padding-bottom: 20px; /* Reduz o padding inferior */
+  }
 
-    .imagem {
-        padding: 10px 0; /* Reduz o padding da imagem */
-    }
+  .imagem {
+    padding: 10px 0; /* Reduz o padding da imagem */
+  }
 }
 
 @media screen and (max-width: 480px) {
-    .texto {
-        font-size: 20px; /* Reduz o tamanho da fonte para telas menores */
-    }
+  .texto {
+    font-size: 20px; /* Reduz o tamanho da fonte para telas menores */
+  }
 }
